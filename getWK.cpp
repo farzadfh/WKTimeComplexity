@@ -238,8 +238,7 @@ void mergeAndCount(int *p, int *invCount, const int n1, const int n2)
 
 
 uint64_t GetTimeMs64()
-/* Returns the amount of milliseconds elapsed since the UNIX epoch. Works on both
- * windows and linux. */
+/* Returns the amount of milliseconds elapsed since the UNIX epoch. Works on both windows and linux. */
 {
 #ifdef WIN32
  /* Windows */
